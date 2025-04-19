@@ -38,7 +38,7 @@ class SheetAgents:
                 tools=self.tools,
                 verbose=True,
                 handle_parsing_errors=True,
-                max_iterations=10
+                max_iterations=15
             )
             
         except Exception as e:
